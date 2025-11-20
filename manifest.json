@@ -1,0 +1,44 @@
+{
+  "name": "OneTap Timer AI",
+  "short_name": "OneTap",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2921/2921226.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2921/2921226.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Focus (25m)",
+      "short_name": "Focus",
+      "description": "Spustiť hlbokú prácu",
+      "url": "/?start=1",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2921/2921226.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Nap (20m)",
+      "short_name": "Nap",
+      "description": "Rýchly spánok",
+      "url": "/?start=3",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2921/2921226.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Workout (45m)",
+      "short_name": "Cvičiť",
+      "description": "Tréningový časovač",
+      "url": "/?start=5",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2921/2921226.png", "sizes": "192x192" }]
+    }
+  ]
+}
